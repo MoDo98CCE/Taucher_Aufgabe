@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-### Start with Hot-Reload
+### Start with Hot-Reload just testing
 ```bash
 npm run dev
 ```
