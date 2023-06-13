@@ -41,11 +41,7 @@ jobs:
       - name: Check for updates
         run: npx npm-check-updates -u
 
-      - name: Commit and push updates
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -am "Update dependencies"
-          git push
-
+     # - name: Commit and push updates
+      #  run: |
+          
    
