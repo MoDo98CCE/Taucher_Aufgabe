@@ -25,7 +25,7 @@ jobs:
 
       - run: npm ci
       - run: npm run test
-      #- run: npm run lint
+      - run: npm run lint
 
       - name: Update Dependencies
         uses: actions/checkout@v2
