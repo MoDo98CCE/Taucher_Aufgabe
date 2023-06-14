@@ -65,3 +65,6 @@ const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+// eslint-disable-next-line no-undef
+module.exports = app; // for testing
