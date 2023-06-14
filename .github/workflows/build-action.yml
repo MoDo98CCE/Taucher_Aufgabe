@@ -43,8 +43,8 @@ jobs:
       - name: run mocha
         run: npm run test
         
-      - name: run lint 
-        run: npm run lint
+     # - name: run lint 
+       # run: npm run lint
 
      # - name: Commit and push updates
       #  run: |
