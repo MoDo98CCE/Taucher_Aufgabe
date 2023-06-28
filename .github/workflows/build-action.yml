@@ -44,7 +44,7 @@ jobs:
         run: npm run test
 
       - name: Update Snyk
-        run: npm install -g snyk
+        run: npm update -g snyk
 
         
       - name: run lint 
